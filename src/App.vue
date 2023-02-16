@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <template>
@@ -13,7 +13,6 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
     </div>
   </header>
-  <h1>Events for Good</h1>
   <RouterView />
 </template>
 
@@ -37,5 +36,8 @@ nav a.router-link-exact-active {
 }
 h2 {
   font-size: 20px;
+}
+h1 {
+  text-align: center;
 }
 </style>
